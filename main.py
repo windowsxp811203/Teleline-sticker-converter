@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 config = configparser.ConfigParser()
 config.read('config.ini')
 app = Flask(__name__)
-bot = telegram.Bot(token=(config['TELEGRAM']['ACCESS_TOKEN']))
+bot = telegram.Bot(token=(config['linestickerformebot']['1457782278:AAF9X3eEIJDb_CgfhiVOPdQgoopcy1pbX4E']))
 
 emojis = "😂😘😍😊😁😔😄😭😒😳😜😉😃😢😝😱😡😏😞😅😚😌😀😋😆😐😕👍👌👿❤🖤💤🎵🔞"
 def random_emoji():
